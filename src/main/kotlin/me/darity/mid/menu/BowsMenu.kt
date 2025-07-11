@@ -42,6 +42,6 @@ class BowsMenu(parent: InventoryMenu) : InventoryMenu(2 * 9, Text.text("Луки
                 }
             },
             9
-        ) { event, _ -> parent.openParent(event.view.player as Player) }
+        ) { event, _ -> openParent(event.view.player as Player) }
     }
 }
